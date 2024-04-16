@@ -71,7 +71,7 @@ public class Game implements Runnable {
 			for (int i = 0; i < 4; i++)
 				sum += checker[i];
 
-			if (sum == 4 && cnt >= 6)
+			if (sum == 4 && cnt >= 10)
 				break;
 		}
 

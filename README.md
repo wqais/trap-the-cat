@@ -1,14 +1,42 @@
 # TrapTheCat
-The project was developed in Java, as a part of CSE 108 (Object Oriented Programming Language Sessional) project.
+The project was developed in Java, as a part of DAA and Java Hackathon organised at SPIT, Mumbai.
 
-The game can be played between two players in the same LAN. One player will be the 'Trapper' and 
-the other player will be the 'Cat'. 
+# Team Name: Uchiha Clan
 
-For multiplayer mode, run server/Server.main() in a PC located in the same LAN as the players. 
-Then, run executables/Main.main() in both of the PCs of the players. All of these can be run in a single PC too. 
-One has to create a game and wait. The other player has to join the game and the game starts.
+## Team Members
+- [Hina Bediya] (https://www.github.com/hinabediya)
+- [Ishani Mathur] (https://www.github.com/mathurishani)
+- [Ayush Tripathi] (https://www.github.com/wit-ayush)
+- [Qais Warekar] (https://www.github.com/wqais)
 
 
-The game can be played in single player mode too. Currently, one can play as 'Trapper' and try to trap the 'Cat'.
+## Description
+In "Trap a Cat", players engage in a strategic board game where one player acts as the trapper, aiming to corner the cat within the boundaries of the board, while the cat attempts to avoid being trapped. The game is played on a grid-based board, with the trapper strategically placing barriers to restrict the cat's movement
 
-![Snapshot of playing the game](https://i.imgur.com/v1hDgtK.png)
+Creating the "Trap a Cat" game stemmed from a desire to offer players an enjoyable yet mentally stimulating experience. We wanted to provide a game that challenges players to think strategically and plan their moves carefully. Whether playing as the trapper or the cat, participants must devise tactics to outsmart their opponent. The game fosters an atmosphere of friendly competition and encourages players to engage in exciting battles of strategy. With its blend of fun and intellect, "Trap a Cat" promises hours of entertainment for players of all ages.
+
+## Tools Used
+
+**FRONTEND**
+
+- JavaFX Library
+- CSS
+- XML
+  
+**BACKEND**
+
+- Java Core
+
+**IDE**
+
+- Eclipse
+
+## Steps to Start the Game
+
+- Open the project in Eclipse IDE
+- Navigate to src/executables/Main.java
+- Run the project
+
+**For Multiplayer Mode**
+- Run Server.java
+- Run Main.java
