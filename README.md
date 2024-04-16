@@ -1,13 +1,13 @@
 # TrapTheCat
 The project was developed in Java, as a part of DAA and Java Hackathon organised at SPIT, Mumbai.
 
-# Team Name: Uchiha Clan
+## Team Name: Uchiha Clan
 
 ## Team Members
-- [Hina Bediya] (https://www.github.com/hinabediya)
-- [Ishani Mathur] (https://www.github.com/mathurishani)
-- [Ayush Tripathi] (https://www.github.com/wit-ayush)
-- [Qais Warekar] (https://www.github.com/wqais)
+- [Hina Bediya] (#https://www.github.com/hinabediya)
+- [Ishani Mathur] (#https://www.github.com/mathurishani)
+- [Ayush Tripathi] (#https://www.github.com/wit-ayush)
+- [Qais Warekar] (#https://www.github.com/wqais)
 
 
 ## Description
