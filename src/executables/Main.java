@@ -17,7 +17,6 @@ import javafx.stage.Stage;
 import sendable.Cell;
 import server.Game;
 import util.NetworkUtil;
-
 import java.util.Scanner;
 
 
@@ -31,7 +30,6 @@ public class Main extends Application {
         mainRef = this;
         window = primaryStage;
         window.setResizable(false);
-
         showStartScene();
         window.show();
     }

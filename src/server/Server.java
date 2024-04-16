@@ -21,7 +21,6 @@ public class Server {
 
         try {
             ServerSocket ss = new ServerSocket(44444);
-
             while (true) {
                 Socket cs = ss.accept();
                 NetworkUtil nc = new NetworkUtil(cs);

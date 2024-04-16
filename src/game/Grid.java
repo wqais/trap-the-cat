@@ -58,12 +58,46 @@ public class Grid {
 
         this.root.getChildren().add(catImage);
     }
+    
 
     public void block(int x, int y) {
         brittos[x][y].setStatus(true);
         brittos[x][y].getCircle().setFill(BLOCKED);
     }
 
+    public void clearGrid() {
+        // Remove all circles and cat image from the root group
+        for (int i = 0; i < 11; i++) {
+            for (int j = 0; j < 11; j++) {
+                root.getChildren().remove(brittos[i][j].getCircle());
+            }
+        }
+        root.getChildren().remove(catImage);
+
+        // Reset brittos array
+        brittos = new Britto[11][11];
+
+        // Recreate grid and cat
+        catImage = new ImageView(new Image(getClass().getResourceAsStream("frames/0.png")));
+        catImage.setPreserveRatio(true);
+
+        catPosition = new Cell(5, 5);
+
+        for(int i = 0; i < 11; i++) {
+            for(int j = 0; j < 11; j++) {
+                Circle circle = new Circle();
+                brittos[i][j] = new Britto(this.scene, circle, i, j, false, turn, player, catPosition);
+                this.root.getChildren().add(brittos[i][j].getCircle());
+            }
+        }
+
+        catImage.setX(brittos[5][5].getCircle().getCenterX()-offsetX);
+        catImage.setY(brittos[5][5].getCircle().getCenterY()-offsetY);
+
+        this.root.getChildren().add(catImage);
+    }
+    
+    
     public void moveTo(int x, int y) {
 
         int oldX = catPosition.getX();
